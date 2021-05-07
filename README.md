@@ -5,7 +5,10 @@ HTML concepts
 ## Tags
 - Generic Tag
 - Properties:
-1. id
+1. id (selector => #): element identifier. Used to apply behavior generally
+2. class (selector => .): used to apply style to same class elements
+3. attribute (selector => [attr_name]): apply behavior (js) to personal one elms
+4. style: inline style
 ```html
 <tag></tag>
 ```
@@ -90,6 +93,36 @@ HTML concepts
 </body>
 ```
 
+- Style: CSS code
+```html
+<head>
+	<style></style>
+</head>
+```
+
+- Span: non visual tag (like div)
+```html
+<body>
+	<span></span>
+</body>
+```
+
+- Br: line break
+```html
+<head>
+	<br>
+</head>
+```
+
+- Link: link a css/js file
+- Properties
+1. rel
+```html
+<head>
+	<link rel="stylesheet" href="path_to_css_file">
+</head>
+```
+
 ## Tag Anatomy
 
 - The HTML document is organized in tree of tags
@@ -141,3 +174,22 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
     </body>
 </html>
 ```
+
+## A bit of CSS
+
+- Apply Style in elements
+- Use selectors to select specifc elements
+
+Selectors
+1. tag (tag name)
+2. id (#)
+3. class (.)
+
+Nested Selectors
+- selector 1 > selector 2
+
+Same style to more than one selectors
+- selector 1, selector 2
+
+[poucoDeCSS.html](coder/poucoDeCSS.html)
+[poucoDeCSS.css](coder/poucoDeCSS.css)
