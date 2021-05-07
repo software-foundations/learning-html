@@ -232,3 +232,12 @@ http-server .
 http-sever -p <port> .
 http-sever -p 9090 .
 ```
+
+## Pure Text vs. Browser
+
+- The browser undestant text and text tags even if the text is not in html tag
+
+[textoPuro.html](coder/textoPuro.html)
+```html
+Esse é um <b>texto</b> puro!
+```
