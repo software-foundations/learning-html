@@ -193,3 +193,42 @@ Same style to more than one selectors
 
 [poucoDeCSS.html](coder/poucoDeCSS.html)
 [poucoDeCSS.css](coder/poucoDeCSS.css)
+
+## Estructuring the exercises
+
+- Use Ajax request to render html content inside the page
+- Do that by intercept the click event at the link in nav
+- Use event.preventDefault() to avoid load new page by click on link in nav
+- Use fetch(link.href).then(resp => resp.text()).then(html => { ... })
+- This get the html content and we can use that to put it in a element
+
+```javascript
+document.querySelectorAll('[wm-nav]').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+            
+            link.onclick = function(e) {
+                e.preventDefault()
+                fetch(link.getAttribute('wm-nav'))
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+```
+
+[index.html](coder/index.html)
+[teste.html](coder/exercicios/teste.html)
+[temp.html](coder/exercicios/temp.html)
+- Install http-server
+```sh
+sudo npm i -g http-server
+```
+
+- Start http-server
+```sh
+cd coder/
+
+http-server .
+# or
+http-sever -p <port> .
+http-sever -p 9090 .
+```
