@@ -422,3 +422,43 @@ http-server -c-1 .
 		<dd>Definition of term 02</dd>
 	</dl>
 ```
+
+## Nested Lists
+- List inside another list
+- Ul inside Ul
+- Ol inside Ol
+
+[index.html](coder/index.html)
+[listasAninhadas.html](coder/exercicios/listaAninhada.html)
+
+```html
+	Web
+	<ul class="tree">
+		<li>
+			Frontend
+			<ul>
+				<lis>Html</lis>
+				<lis>CSS</lis>
+				<lis>JavaScript</lis>
+			</ul>
+		</li>
+
+		<li>
+			Backend
+			<ul>
+				<lis>Python</lis>
+				<lis>NodeJs</lis>
+				<lis>Java</lis>
+				<lis>PHP</lis>
+				<lis>C#</lis>
+			</ul>
+		</li>
+	</ul>
+```
+
+- Span: not visible generic text container used to apply style or set a behavior
+```html
+	<span myComponent class="myclass" id="myid">
+		...
+	</span>
+```
