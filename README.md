@@ -264,6 +264,7 @@ Esse é um <b>texto</b> puro!
 ```
 
 ## Text tags
+
 - Spaces and break lines are applyed with tags
 - More than one blank line are renderized as one
 
@@ -293,4 +294,96 @@ http-server -c-1 .
 - Sup and Sub write
 ```html
 	<p> <sup>Some text</sup> <sub>Some text</sub> </p>
+```
+
+[index.html](coder/index.html)
+[texto1.html](coder/exercicios/texto2.html)
+
+- Br: Break line
+```html
+	<p>Line 01 <br> Line 02 </br> Line 03</p>
+```
+
+- Hr: Horizontal line
+```html
+	<p>some text</p>
+	<hr>
+	<p>some text</p>
+```
+
+- strong: semantic markup, which turn bold some important text
+```html
+	<p>some important <strong>stuff</strong></p>
+```
+
+- em: semantic markup, wich turn italic some text, giving emphasize
+```html
+	<p>The <em>stuff</em> is important</p>
+```
+
+- q: short citation
+```html
+	<p> He says: <q>some sication</q> </p>
+```
+
+- Blockquote: long citation
+- Properties:
+1. cite: link which is referred
+```html
+	<blockquote cite="https://...">
+		<p>Start long ciation</p>
+		<p>...<q>...</q> </p>		
+		...		
+	</blockquote>
+```
+
+- Cite: cite work, not people
+```html
+	<p>
+		<cite>Narnia</cite> is a good book
+	</p>
+```
+
+- Abbr: abbreviation
+- Properties:
+1. title: title of something
+```html
+	<p>
+		<abbr title="Professor">Prof</abbr> in your book ...
+	</p>
+```
+
+- Dfn: definition
+```html
+	<p>
+		hypotenuse: <dfn>is the sum of the squares of the side</dfn>
+	</p>
+```
+
+- Addrress: Address of someone or something
+```html
+	<address>
+		<p>...</p>
+	</address>
+```
+
+- Del: intentionally wrong or deprecated thing
+```html
+	<p>
+		You are <del>Fefrigerator</del> Beautiful now!
+	</p>
+```
+
+- Ins: refer to overwrite some deleted thing
+```html
+	<p>
+		TV for sale:  <del>4000</del> <ins>2500</ins>
+	</p>
+```
+
+- s: intentionally no more acurrate thing
+```html
+	<p>
+		TV for sale:  <s>4000</s> 2500
+	</p>
 ```
