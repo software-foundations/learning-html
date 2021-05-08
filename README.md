@@ -387,3 +387,38 @@ http-server -c-1 .
 		TV for sale:  <s>4000</s> 2500
 	</p>
 ```
+
+## Lists
+
+[index.html](coder/index.html)
+[listas.html](coder/exercicios/listas.html)
+
+- Ol: ordered list
+```html
+	<ol>
+		<li>Item 01</li>
+		<li>Item 02</li>
+		<li>Item 03</li>
+	</ol>
+```
+
+- Ul: unordered list
+```html
+	<ul>
+		<li>Cheese</li>
+		<li>Rice</li>
+		<li>Milk</li>
+		<li>Bread</li>
+	</ul>
+```
+
+- Dl: definition list
+```html
+	<dl>
+		<dt>Term 01</dt>			
+		<dd>Definition of term 01</dd>
+
+		<dt>Term 01</dt>			
+		<dd>Definition of term 02</dd>
+	</dl>
+```
