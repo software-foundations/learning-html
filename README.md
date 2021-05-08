@@ -123,6 +123,27 @@ HTML concepts
 </head>
 ```
 
+- P: paragraph tag
+```html
+	<p>some text</p>
+```
+
+- B: bold text
+```html
+	<b>some text</b>
+```
+
+- I: italic
+```html
+	<i>some text</i>
+```
+
+- Sup and Sub write
+```html
+	<p> <sup>Some text</sup> <sub>Some text</sub> </p>
+```
+
+
 ## Tag Anatomy
 
 - The HTML document is organized in tree of tags
@@ -240,4 +261,36 @@ http-sever -p 9090 .
 [textoPuro.html](coder/textoPuro.html)
 ```html
 Esse é um <b>texto</b> puro!
+```
+
+## Text tags
+- Spaces and break lines are applyed with tags
+- More than one blank line are renderized as one
+
+[index.html](coder/index.html)
+[texto1.html](coder/exercicios/texto1.html)
+
+Http-server with no cache
+```sh
+http-server -c-1 .
+```
+
+- P: paragraph tag
+```html
+	<p>some text</p>
+```
+
+- B: bold text
+```html
+	<b>some text</b>
+```
+
+- I: italic
+```html
+	<i>some text</i>
+```
+
+- Sup and Sub write
+```html
+	<p> <sup>Some text</sup> <sub>Some text</sub> </p>
 ```
