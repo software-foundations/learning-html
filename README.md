@@ -462,3 +462,17 @@ http-server -c-1 .
 		...
 	</span>
 ```
+
+## Links
+
+[index.html](coder/index.html)
+[links.html](coder/exercicios/links.html)
+
+- Target='blank' propertie is used to open some link in new tab
+- Absolute vs. Relative URL
+- href='/...' acess from root application
+- href='file.html' acess from current folder
+- href='../file.html' acess from parent folder
+- href='mailto:...@...com' to open mail application
+- href='#<id_name>' focus on <id_name> element: anchor concept
+- anchors are not acessible (are not sent) in backend on submit a form
