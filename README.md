@@ -476,3 +476,32 @@ http-server -c-1 .
 - href='mailto:...@...com' to open mail application
 - href='#<id_name>' focus on <id_name> element: anchor concept
 - anchors are not acessible (are not sent) in backend on submit a form
+
+## Tables
+
+[index.html](coder/index.html)
+[tabela.html](coder/exercicios/tabela.html)
+
+- <table border="1"></table> tag defines a table
+
+- Border attr is optional
+- <caption></caption> is optional inside table and acts like title for the table
+
+- Table has 3 regiões: headers (<thead>), body (<tbody>), and footer (<tfoot>)
+- <tr><th></th></tr> inside <thead></thead>
+- <tr><td></td></tr> inside <tbody></tbody> and <tfoot></tfoot>
+
+- th means table head
+- td means table data
+
+- td has the attr colspan, with receive the "number" of the columns the td fills
+- td has the attr rowspan, with receive the "number" of the rows the td fills
+- a td can have both colspan and rowspan attrs
+
+```html
+	<table>
+		<thead></thead>
+		<tbody> ... </tbody>
+		<tfoot> ... </tfoot>
+	</table>
+```
