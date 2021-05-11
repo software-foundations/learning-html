@@ -505,3 +505,33 @@ http-server -c-1 .
 		<tfoot> ... </tfoot>
 	</table>
 ```
+
+## Forms
+
+[index.html](coder/index.html)
+[form.html](coder/exercicios/form.html)
+[server.js](coder/exercicios/server.js)
+
+- It is from js course, so backend is using node/express
+
+- Create a form tag, with action="some url" and method="post" attributes
+- Preceed button tag by the input tag to let button submit the input content
+
+- The input content type is defined by the input attr
+
+- input (value attr is the value received at the backend)
+- input (type=text)
+- input (type=password)
+- input (type=radio)
+- input (type=checkbox)
+- textarea
+
+- select - option tag (value attr is the value received at the backend)
+- select - multiple attr used to select multiple options
+- select - size attr is used to select size="number" of options
+
+- More than a button can submit the same form
+- It is made by different formaction and formmethod at each different button
+- It is used when each different button perform different actions at the backend
+
+- input (type=hidden) - not displayed input: egg. to send hidden data to backend
